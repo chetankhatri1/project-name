@@ -1,0 +1,7 @@
+    MNEMONIC="here is where your extracted twelve words mnemonic phrase should be put"
+    PRIVATE_KEY="d3cb6e326d78912ab099eb207490f2c81ee3940f03d9f112d392b6234a328ca6"
+    POKT_API_KEY="********************************"
+    INFURA_API_KEY="********************************"
+    INFURA_API_SECRET="********************************"
+    ALCHEMY_API_KEY="yQRCAS3dPz4v-E0OQILYpmNqnh9DGh8A"
+    ETHERSCAN_API_KEY="BP6Z53DYASIXC4M3HEGZ6N2YHRDI7S6NVJ"
