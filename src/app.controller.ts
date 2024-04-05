@@ -25,14 +25,16 @@ export class AppController {
     return {result: await this.appService.getTotalSupply()};
   }
 
-  @Get('token-balance/:address')
-  async getTokenBalance(@Param('address') address: string) {
-    return {result: await this.appService.getTokenBalance(address)};
-  }
+
+//  @Get('token-balance/:address')
+//  async getTokenBalance(@Param('address') address: string) {
+//    return {result: await this.appService.getTokenBalance(address)};
+//  }
 
   @Get('transaction-receipt')
   async getTransactionReceipt(@Query('hash') hash: string) {
     return {result: await this.appService.getTransactionReceipt(hash)};
   }
+
 
 }
